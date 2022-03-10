@@ -59,34 +59,83 @@
         <img src="../images/UseCase-HabitTrackingApp.png" alt="Use Case Diagram">
     </div>
 
-    <button class="accordion">Section</button>
+    <button class="accordion">Class diagrams</button>
     <div class="panel">
-        <p></p>
+        <p>The Unified Modeling Language or UML notation is probably the most well known and regularly used visual representation of programs that you’ll find in software development. There are a wide range of diagrams to help you specify your data and processes before you start programming. They help you clarify requirements and limitations, speed up the implementation, provide a guide for thorough testing, and prevent bugs from sneaking in throughout the entire software development process.</p>
+        <p> Probably the most well known structural diagram are class diagrams, which specify the data structures and their relationships within your program.</p>
+        <p>Each class is represented by a box with three sections stacked on top of each other with the following formatting. Only the class name is mandatory</p>
+        
+        <ul>
+            <li>Class name</li>
+            <li>Attributes - name: type</li>
+            <li>Operations - method name(parameter list): return value type</li>
+        </ul>
+
+        <img src="../images/Class-Diagram-Habit-Tracker-app.png" alt="Class Diagram">
     </div>
 
-    <button class="accordion">Section</button>
+    <button class="accordion">Sequence diagrams
+    </button>
     <div class="panel">
-        <p></p>
+        <p>UML sequence diagrams are the first highly detailed behavioural diagrams that you will create when using UML for software development. They aren’t so often used in business process modelling, especially because they refer to the actual data and operation names that will be used when programming. That doesn’t mean you can’t use sequence diagrams: they can be used to model business objects and their interactions in detail, or by IT staff to detail how the elements in their infrastructure communicate and work together.</p>
+        
+        <img src="../images/drawio-sequence-diagram-habit-tracker.png" alt="Sequence diagram">
     </div>
 
-    <button class="accordion">Section</button>
+    <button class="accordion">Activity diagrams</button>
     <div class="panel">
-        <p></p>
+        <p>Like use case diagrams, activity diagrams model the behaviour of users and systems as they follow a process.
+            They are a type of flow chart or workflow, but they use slightly different shapes.</p>
+
+            <ul>
+                <li><span>Start/End:</span> Use a black or solid circle to show where the diagram starts, and a solid circle
+                    with a ring around it to indicate the end of the process.</li>
+                <li><span>Actions:</span> Use rounded rectangles with the name of the action.</li>
+                <li><span>Decisions:</span> Use diamonds whenever there is a choice. You can either include the decision as
+                    a question within the diamond, or indicate the decision outcome on the outgoing arrows instead of simply
+                    using yes/no labels.</li>
+                <li><span>Split/Join:</span> Use a thick bar to indicate where activities split or join.</li>
+            </ul>
+
+        <img src="../images/ActivityDiagram-HabitTrackerApp.png" alt="" srcset="Activity diagram">
     </div>
 
-    <button class="accordion">Section</button>
+    <button class="accordion">State diagrams
+    </button>
     <div class="panel">
-        <p></p>
+        <p>State diagrams have been used in programming to describe the various possible states that a system can be in
+            for decades. They also quickly show which states lead to each other, and what triggers a change of state.
+        </p>
+        <P>Of course, you can use these diagrams for anything system or process that has various states – library books,
+            a publishing process, even punishment and reward states for your kids. They are very similar to flow
+            diagrams, but UML has a notation specifically for state diagrams, which they also call state machines or
+            statecharts.</P>
+
+        <img src="../images/UML-state-diagram-Habit-Tracker-example.png" alt="State diagram">
     </div>
 
-    <button class="accordion">Section</button>
+    <button class="accordion">Interaction overview diagrams
+    </button>
     <div class="panel">
-        <p></p>
+        <p>These UML diagrams are a combination of an activity diagram and sequence diagrams. Each individual activity
+            or interaction is placed in its own frame, making it easier to see the different paths that need to be
+            programmed when there are complex if-then-else decisions. Decisions are outside of the frames to show the
+            flow of control between the various interactions.</p>
+        <p>The interactions themselves, inside the frames, are very similar to sequence diagrams. Between the
+            interactions you will have decisions (diamonds) and fork and join nodes (solid horizontal rectangles), and
+            connectors to show the flow of control. There are also initial and final nodes to show the start and end of
+            the overarching interaction.</p>
+
+        <img src="../images/Interaction-Overview-Habit-Tracker.png" alt="Interaction overview diagram">
     </div>
 
-    <button class="accordion">Section</button>
+    <button class="accordion">Communication diagrams
+    </button>
     <div class="panel">
-        <p></p>
+        <p>Communication diagrams are another way to visualize the information more commonly represented by UML sequence diagrams. They are simpler than sequence diagrams and only show the messages that pass between the objects or roles in a software program, infrastructure, or any kind of process.</p>
+       
+        <p>If you have multiple scenarios in one use case, UML communication diagrams help you clearly identify what messages (data) need to be sent between objects/roles in each specific scenario.</p>
+        <img src="../images/58c4729d-b4b8-4e32-90d1-8721a43c436c.png" alt="Communication diagram">
     </div>
 
     <button class="accordion">BitCoin Calculator App Activity Diagram</button>
